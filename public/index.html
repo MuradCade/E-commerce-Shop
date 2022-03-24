@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="carousel.css">
+    <title>Home</title>
+</head>
+<body class="font-mono ">
+    <div class="mb-20">
+       <div class="flex justify-between">
+        <div class="container px-5 mt-3 ml-10">
+            <img src="../img//images.png" alt="logo" class="w-10 rounded-3xl">
+        </div>
+
+        <ul class="flex justify-between mr-5 mt-5">
+            <li><a href="#" class="list-none px-2 no-underline font-semibold text-orange-500 text-lg hover:text-black">Home</a></li>
+            <li><a href="#" class="list-none px-2 no-underline  font-semibold hover:text-orange-500">About</a></li>
+            <li><a href="#" class="list-none px-2 no-underline  font-semibold hover:text-orange-500">Shop</a></li>
+        </ul>
+        <div class="mr-10 mt-2 bg-orange-500 w-16 p-3 text-white rounded-md hover:bg-orange-400 hover:text-black">
+            <button class="font-semibold">Login</button>
+        </div>
+       </div>
+    </div>
+
+
+       <!-- carousel -->
+     
+       <div class="carousel relative rounded relative overflow-hidden shadow-xl">
+        <div class="carousel-inner relative overflow-hidden w-full">
+          <!--Slide 1-->
+          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+            checked="checked">
+          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg)">
+
+          </div>
+          <label for="carousel-3"
+            class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
+              class="fas fa-angle-left mt-3"></i></label>
+          <label for="carousel-2"
+            class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+              class="fas fa-angle-right mt-3"></i></label>
+
+          <!--Slide 2-->
+          <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://media.istockphoto.com/photos/boutique-shoes-in-a-store-picture-id1152527286?b=1&k=20&m=1152527286&s=170667a&w=0&h=PWHvKF77V94Wk7eIVEo9bxSVg-ybU8dJR6UXG3fRa5k=); background-repeat: no-repeat;     background-size: 99% 100%; ">
+          </div>
+          <label for="carousel-1"
+            class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+              class="fas fa-angle-left mt-3"></i></label>
+          <label for="carousel-3"
+            class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+              class="fas fa-angle-right mt-3"></i></label>
+
+          <!--Slide 3-->
+          <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0" style="height:500px; background-image: url(https://mdbootstrap.com/img/new/slides/054.jpg)">
+          </div>
+          <label for="carousel-2"
+            class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+              class="fas fa-angle-left mt-3"></i></label>
+          <label for="carousel-1"
+            class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+              class="fas fa-angle-right mt-3"></i></label>
+
+          <!-- Add additional indicators for each slide-->
+          <ol class="carousel-indicators">
+            <li class="inline-block mr-3">
+              <label for="carousel-1"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-2"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-3"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+          </ol>
+
+        </div>
+      </div>
+</body>
+</html>
