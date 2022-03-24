@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i src/style.css -o public/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MuradCade/E-commerce-Shop/issues"
   },
-  "homepage": "https://github.com/MuradCade/E-commerce-Shop#readme"
+  "homepage": "https://github.com/MuradCade/E-commerce-Shop#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }
