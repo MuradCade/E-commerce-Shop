@@ -6,3 +6,5 @@
 - Tailwind Css
 - Javascript
 - Node js
+
+_By Dev Team_
