@@ -1,6 +1,8 @@
 # E-commerce-Shop
-## This project is Full-stack E-commerce shop 
+## This project is Full-stack E-commerce Website
 
 <!-- # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> -->
 
-![](https://img.shields.io/badge/<Html,Tailwindcss,Javascrip>-<node.js>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+### Frontend Wel Will Use The Following Technologies.
+![](https://img.shields.io/badge/<Html>-<Tailwind css>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Html,Javascript>-<node.js>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
