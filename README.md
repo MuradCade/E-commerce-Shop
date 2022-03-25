@@ -6,5 +6,5 @@
 - Tailwind Css
 - Javascript
 - Node js
-#### Take A look : [![Foo](https://ecommerce-shop-project.netlify.app/)
+#### Take A look :[Eccomerce Project Link](https://ecommerce-shop-project.netlify.app/)
 
