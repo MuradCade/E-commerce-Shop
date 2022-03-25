@@ -36,7 +36,7 @@
           <!--Slide 1-->
           <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
             checked="checked">
-          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg)">
+          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://images.unsplash.com/photo-1601598853072-3969239a6b9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);  background-repeat: no-repeat;     background-size: cover;">
 
           </div>
           <label for="carousel-3"
@@ -48,7 +48,7 @@
 
           <!--Slide 2-->
           <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://media.istockphoto.com/photos/boutique-shoes-in-a-store-picture-id1152527286?b=1&k=20&m=1152527286&s=170667a&w=0&h=PWHvKF77V94Wk7eIVEo9bxSVg-ybU8dJR6UXG3fRa5k=); background-repeat: no-repeat;     background-size: 99% 100%; ">
+          <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; background-image: url(https://images.unsplash.com/photo-1611858447198-c6b3cc794943?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2hvZXMlMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60); background-repeat: no-repeat;background-size:cover; ">
           </div>
           <label for="carousel-1"
             class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -59,7 +59,7 @@
 
           <!--Slide 3-->
           <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item absolute opacity-0" style="height:500px; background-image: url(https://mdbootstrap.com/img/new/slides/054.jpg)">
+          <div class="carousel-item absolute opacity-0" style="height:500px; background-image: url(https://images.unsplash.com/photo-1609188944094-394637c26769?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2hvZXMlMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60); background-repeat: no-repeat;   background-size:cover;">
           </div>
           <label for="carousel-2"
             class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -86,17 +86,17 @@
         </div>
       </div>
 
-      <div class=" container mx-auto mb-10">
+      <div class=" container mx-auto mb-10 ">
         <!-- header title -->
-             <div class="mb-4">
+             <div class="mb-4 sm:hidden">
                <h4 class="font-semibold text-lg ">Filter Products</h4>
              </div>
              <!-- list of product -->
-             <div class="flex flex-row">
-               <h4 class="text-gray-700 text-lg font-bold mb-3">Category</h4>
-               <div class="flex flex-col  mt-10 relative right-20">
-                <div><input type="checkbox" class="cursor-pointer"> Fusion-Shoes</div>
-                <div><input type="checkbox" class="cursor-pointer"> Sport-Shoes</div>
+             <div class="flex flex-row px-10 ">
+               <h4 class="text-gray-700 text-lg font-bold mb-3  sm:hidden">Category</h4>
+               <div class="flex flex-col w-auto mt-10 relative right-10 lg:block md:block  sm:hidden ">
+                 <div><input type="checkbox" class="cursor-pointer"> Fusion-Shoes</div>
+                 <div><input type="checkbox" class="cursor-pointer"> Sport-Shoes</div>
                 <div><input type="checkbox" class="cursor-pointer"> Women-Shoes</div>
                 <div><input type="checkbox" class="cursor-pointer"> Men-Shoes</div>
                 <div><input type="checkbox" class="cursor-pointer"> Children-Cloth</div>
@@ -133,38 +133,38 @@
                 <div><input type="checkbox" class="cursor-pointer"> Sun glasses</div>
                </div>
                <!-- product first row -->
-               <div class="relative ml-12 place-items-center">
-                 <h2 class="text-indigo-400 font-semibold mb-6 ">2022 Edidtion Fashion</h2>
-                 <div class="flex flex-row mb-4  md:flex-1  sm:hidden">
-                   <div class="container   h-64 flex-wrap flex-1 md:shrink-0">
+               <div class="relative ml-12 place-items-center sm:justify-center sm:px-5">
+                 <h2 class="text-indigo-400 font-semibold mb-6 sm:text-4xl">2022 Edidtion Fashion</h2>
+                 <div class="flex flex-col md:flex-row  mb-4">
+                   <div class="container   h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer ">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                    <div class="container  h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:hover">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                    <div class="container  h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:hover">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                    <div class="container  h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:hover">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                    <div class="container  h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:hover">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                    <div class="container  h-64 flex-wrap flex-1">
                     <img src="../shoes/chuttersnap-4JHMt29fvj8-unsplash.jpg" alt="product-1" class="w-36 h-28 rounded-md ml-5 relative top-4 mb-10">
                      <h4 class="text-center text-lg font-bold mb-5 ">Nike-Airforce <br><span class="text-xs text-gray-600 font-thin">Limited-Edition</span></h4> 
-                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:hover">Purches</button>
+                    <butto class="bg-blue-100 ml-12 py-3 px-4 text-base rounded-sm cursor-pointer hover:bg-blue-400 hover:text-white">Purches</button>
                     </div>
                  </div>
                  <!-- product second row -->
