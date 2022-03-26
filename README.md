@@ -1,8 +1,8 @@
 # E-commerce-Shop
 ## This project is Full-stack E-commerce Website
 
-<!-- # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> -->
+#this is the backend of the E-commerce-shop
 
-### Frontend We Will Use The Following Technologies <br>
-![](https://img.shields.io/badge/<Html>-<Tailwindcss>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a) <br>
-![](https://img.shields.io/badge/<Javascript>-<node.js>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+### Backend We Will Use The Following Technologies <br>
+![](https://img.shields.io/badge/<Node.js>-<Expresse>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a) <br>
+![](https://img.shields.io/badge/<Javascript>-<MERN>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
