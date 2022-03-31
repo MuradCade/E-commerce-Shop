@@ -6,5 +6,5 @@
 - Tailwind Css
 - Javascript
 - Node js
-#### Take A look : [Ecommerce Project Link](https://ecommerce-shop-project.netlify.app/)
+
 
