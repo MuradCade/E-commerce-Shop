@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="public/style.css">
   <title>Home</title>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 sm:overflow-x-hidden container mx-auto">
   
-  <div class="container mx-auto flex justify-around  mt-4 mb-20 sm:mb-0 ">
-    <div class="flex mt-4 xsm:-ml-20 sm:-ml-20">
+  <div class="container mx-auto flex  justify-center lg:justify-between xsm:justify-between  px-20 mt-4  sm:mb-0 ">
+    <div class="flex mt-4 xsm:-ml-20  ">
       <span class="material-icons text-indigo-500">
         shopping_bag
         </span>
       <h2 class="text-indigo-600 font-semibold">Shoppify</h2>
     </div>
-  <ul class="flex mt-4 xsm:hidden md:block md:flex lg:block lg:flex xsm:hidden">
+  <ul class="flex mt-4 xsm:hidden md:flex lg:flex relative left-20">
     <li><a href="#" class="px-2 text-yellow-500 font-bold text-md hover:text-zinc-400">Home</a></li>
-    <li><a href="#"class="px-2 hover:text-zinc-400 font-semibold">About</a></li>
+    <li><a href="public/product.html"class="px-2 hover:text-zinc-400 font-semibold">Release</a></li>
     <li><a href="#"class="px-3 hover:text-zinc-400 font-semibold">Contact</a></li>
  <div class="flex  w-28  h-10  -mt-2 bg-indigo-500 rounded-full hover:bg-cyan-500 flex-col ">
   <button class="px-5  mt-2 flex font-bold text-white hover:text-black"><span class="material-icons text-amber-200">
@@ -29,10 +29,10 @@
   </button>
  </div>
   </ul>
-  <div class="md:hidden lg:hidden sm:hidden xsm:hidden xl:hidden 2xl:hidden smd:hidden" id="mobile-menu">
-    <ul class="flex mt-4 xsm:block  lg:hidden md:hidden xl:hidden xsm:flex-col sm:hidden sm:flex-col bg-indigo-100 px-10 py-20 relative left-12" id="menu-logo">
-       <img src="img/close.svg" class="w-5 relative -top-16 left-24 cursor-pointer hover:bg-indigo-200" id="close-btn">
-      <li class="-mt-16 mb-2 text-center "><a href="#" class="px-2 text-yellow-500 font-bold text-md hover:text-zinc-400 ">Home</a></li>
+  <div class="container ml-18  relative left-20 md:hidden lg:hidden sm:hidden xsm:hidden   z-10" id="mobile-menu">
+    <ul class="flex mt-4 xsm:block  lg:hidden md:hidden xl:hidden   px-12 py-20  w-full" id="menu-logo">
+       <img src="  img/close.svg" class="w-5 relative -top-16 left-24 cursor-pointer  hover:bg-indigo-200" id="close-btn">
+      <li class="-mt-16 mb-2 text-center"><a href="public/product.html" class="px-2 text-yellow-500 font-bold text-md hover:text-zinc-400 ">Home</a></li>
       <li class="mb-2  text-center"><a href="#"class="px-2 hover:text-zinc-400 font-semibold">About</a></li>
       <li class="mb-2  text-center"><a href="#"class="px-3 hover:text-zinc-400 font-semibold">Contact</a></li>
    <div class="flex  w-28  h-10  -mt-2 bg-indigo-500 rounded-full hover:bg-cyan-500 flex-col  -ml-2  text-center relative left-3 top-4">
@@ -44,22 +44,22 @@
    </div>
     </ul>
   </div>
-  <div class="w-10 cursor-pointer relative top-2 left-24 -ml-10 md:hidden lg:hidden xl:hidden" id="menu-moile-btn">
-    <img src="img/menu.svg" alt="">
+  <div class="  cursor-pointer relative top-2   md:hidden lg:hidden xl:hidden ">
+    <img src="  img/menu.svg" id="menu-mobile-btn" class="w-10  ml-20 relative left-20">
   </div>
   </div>
 
-<div class="container mx-auto px-1 sm:-mt-14 lg:mt-20 md:-mt-10 xsm:-mt-24 xsm:overflow-x-hidden overflow-hidden ">
+<div class="container mx-auto px-1 sm:-mt-14  md:-mt-10 xsm:-mt-24 xsm:overflow-x-hidden overflow-hidden ">
   <div class="flex flex-col justify-center lg:flex-row  md:flex-col "> 
-    <div class="justify-around mt-20 relative top-20 mb-24 lg:mb-0 xsm:mb-8">
-      <h2 class="text-3xl font-bold text-center mb-2 text-indigo-500">Quality Over Quantity</h2>
-      <span class="text-gray-500 relative left-10 lg:left-10 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ducimus obcaecati illo culpa nam amet.</span>
-        <div class="container mt-5 flex justify-center">
+    <div class="justify-around mt-28   mb-24 lg:mb-0 xsm:mb-8 lg:mt-20 relative lg:top-20">
+      <h2 class="text-3xl font-bold text-center mb-2 text-indigo-500 relative  lg:mt-10 lg:top-20">Quality Over Quantity</h2>
+      <span class="text-gray-500 relative left-10 lg:left-10 lg:top-20 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ducimus obcaecati illo culpa nam amet.</span>
+        <div class="container mt-5 flex justify-center relative lg:top-20">
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full">Shop Now</button>
         </div>
     </div>
-    <div class="w-50 fex-1 relative bottom-20 xsm:mt-20 ml-10">
-      <img src="img/logo.svg" class="flex-1">
+    <div class="w-50 fex-1 relative lg:mt-10  md:-mt-20 sm:-mt-20 xsm:-mt-10 xsm:-ml-2 xsm:top-5 ml-10 ">
+      <img src="  img/logo.svg" class="flex-1">
     </div>
   </div>
 </div>
@@ -67,19 +67,19 @@
 <!-- cards -->
 <div class="container mx-auto">
   <!-- head of the cards -->
-  <div class="flex justify-between mb-10 md:justify-araound">
+  <div class="flex justify-between mb-10 xsm:mt-10">
     <h4 class="text-indigo-400 font-bold text-xl sm:px-2">Men's Collection</h4>
     <p class="text-blue-500 text-base font-medium px-10 flex hover:text-indigo-400 cursor-pointer"> View All  <span class="material-icons">
       arrow_right_alt
     </span></p>
   </div>
 </div>
-<div class="container flex flex-col lg:flex-row md:flex-col  sm:px-10 xsm:flex-col xsm:px-5 justify-center xsm:w-full xsm:ml-10" style="overflow-x: hidden;">  
+<div class="container mx-auto grid gap-4 sm:grid-cols-1 xsm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mb-6" style="overflow: hidden;">  
 
     <!--Card 1-->
-  <div class=" container rounded-md  ">
+  <div class="container rounded-md ">
     <div class="max-w-sm rounded overflow-hidden shadow-lg m-10 relative ">
-      <img class="w-full" src="products/product 1.webp" alt="Mountain">
+      <img class="w-full" src="  products/product 1.webp" alt="Mountain">
       <div class="px-6 py-2">
         <div class="font-bold text-xl mb-2 ">Hodie Winter-Cloth</div>
         <p class="text-gray-700 text-base">
@@ -96,9 +96,9 @@
   </div>
    
   <!-- card 2 -->
-  <div class="container rounded-md">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-      <img class="w-full" src="products/product 2.webp" alt="Mountain">
+  <div class="container rounded-md ml-8">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg relative top-2 ">
+      <img class="w-full h-50" src="  products/product 2.webp" alt="Mountain">
       <div class="px-6 py-2">
         <div class="font-bold text-xl mb-2">Black Spring Hodie</div>
         <p class="text-gray-700 text-base">
@@ -114,11 +114,28 @@
       </div>
   </div>
  <!-- card 3 -->
- <div class="container rounded-md ">
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/product 3.webp" alt="Mountain">
+ <div class="container rounded-md inline-block ml-8">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg relative top-2">
+    <img class="w-full" src="  products/product 3.webp" alt="Mountain">
     <div class="px-6 py-2">
-      <div class="font-bold text-xl mb-2">Vegan Hodie</div>
+      <div class="font-bold text-xl mb-2 ">Vegan Hodie</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="flex pt-4 pb-4 ml-4   xsm:relative xsm:left-14  lg:ml-10">
+      <button class="bg-sky-300 hover:bg-sky-200 hover:text-indigo-700 py-2 px-2 mt-4   xflex rounded-lg xsm:flex xsm:justify-center font-bold ">Add To Card <span class="material-icons text-blue-700 px-1">
+        shopping_cart  
+      </span></button>
+    
+  </div>
+    </div>
+</div>
+<div class="container rounded-md inline-block lg:hidden xl:hidden 2xl:hidden md:block sm:hidden xsm:hidden">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg relative top-2">
+    <img class="w-full" src="  products/product 3.webp" alt="Mountain">
+    <div class="px-6 py-2">
+      <div class="font-bold text-xl mb-2 ">Vegan Hodie</div>
       <p class="text-gray-700 text-base">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
       </p>
@@ -134,30 +151,30 @@
 
 </div>
 
-<div class="container flex flex-col lg:flex-row md:flex-col  xsm:flex-col xsm:justify-center xsm:w-full xsm:ml-10">
+<div class="container mx-auto grid gap-4 sm:grid-cols-1 xsm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+
   <!-- card 4 -->
-<div class=" rounded-md ">
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/product 4.webp" alt="Mountain">
-    <div class="px-6 py-2">
-      <div class="font-bold text-xl mb-2">Classic brown Hodie</div>
-      <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-      </p>
+  <div class=" rounded-md w-full   relative bottom-10 md:mt-4">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
+      <img class="w-full" src="  products/product 4.webp" alt="Mountain">
+      <div class="px-6 py-2">
+        <div class="font-bold text-xl mb-2">Classic brown Hodie</div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div class="flex pt-4 pb-4 ml-4   xsm:relative xsm:left-14  lg:ml-10">
+        <button class="bg-sky-300 hover:bg-sky-200 hover:text-indigo-700 py-2 px-2 mt-4   xflex rounded-lg xsm:flex xsm:justify-center font-bold ">Add To Card <span class="material-icons text-blue-700 px-1">
+          shopping_cart  
+        </span></button>
+      
     </div>
-    <div class="flex pt-4 pb-4 ml-4   xsm:relative xsm:left-14  lg:ml-10">
-      <button class="bg-sky-300 hover:bg-sky-200 hover:text-indigo-700 py-2 px-2 mt-4   xflex rounded-lg xsm:flex xsm:justify-center font-bold ">Add To Card <span class="material-icons text-blue-700 px-1">
-        shopping_cart  
-      </span></button>
-    
+      </div>
   </div>
-    </div>
-</div>
-
-<!-- card 5 -->
-<div class=" rounded-md ">
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/product 5.webp" alt="Mountain">
+<!-- card 5 -->   
+<div class=" rounded-md w-full   -mt-20 relative bottom-10 lg:mt-2 md:mt-4">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10"> 
+    <img class="w-full" src="  products/product 5.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">T-shirt Spring</div>
       <p class="text-gray-700 text-base">
@@ -173,9 +190,26 @@
     </div>
 </div>
 <!-- card 6 -->
-<div class=" rounded-md ">
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/product 6.webp" alt="Mountain">
+<div class=" rounded-md w-full  sm:bottom-10  ">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <img class="w-full" src="  products/product 6.webp" alt="Mountain">
+    <div class="px-6 py-2">
+      <div class="font-bold text-xl mb-2">T-shirt Davis Collection</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="flex pt-4 pb-4 ml-4   xsm:relative xsm:left-14  lg:ml-10">
+      <button class="bg-sky-300 hover:bg-sky-200 hover:text-indigo-700 py-2 px-2 mt-4   xflex rounded-lg xsm:flex xsm:justify-center font-bold ">Add To Card <span class="material-icons text-blue-700 px-1">
+        shopping_cart  
+      </span></button>
+    
+  </div>
+    </div>
+</div>
+<div class=" rounded-md w-full  relative md:-mt-4 md:top-3  mt-3 lg:hidden xl:hidden 2xl:hidden md:block  sm:hidden xsm:hidden">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <img class="w-full" src="  products/product 6.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">T-shirt Davis Collection</div>
       <p class="text-gray-700 text-base">
@@ -204,11 +238,11 @@
 
 
 <!-- womes collection -->
-<div class="container flex flex-col lg:flex-row md:flex-col  xsm:flex-col xsm:justify-center xsm:w-full xsm:ml-10">
+<div class="grid gap-4 sm:grid-cols-1 xsm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center mb-0">
   <!-- card 1 -->
-<div class=" rounded-md ">
+<div class=" rounded-md w-full  sm:ml-20">
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women1.jpg" alt="Mountain">
+    <img class="w-full" src="  products/women1.jpg" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Slicon Shirt</div>
       <p class="text-gray-700 text-base">
@@ -225,9 +259,9 @@
 </div>
 
 <!-- card 2 -->
-<div class=" rounded-md ">
-  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women 2.webp" alt="Mountain">
+<div class="sm:ml-26 rounded-md w-full  md:mt-24 mrelative         sm:ml-20 sm:relative sm:left-10 sm:bottom-20 xsm:-mt-10 ">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <img class="w-full" src="  products/women 2.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Officine-Generale</div>
       <p class="text-gray-700 text-base">
@@ -243,9 +277,26 @@
     </div>
 </div>
 <!-- card 3 -->
-<div class=" rounded-md ">
+<div class=" rounded-md">
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women 3.jpg" alt="Mountain">
+    <img class="w-full" src="  products/women 3.jpg" alt="Mountain">
+    <div class="px-6 py-2">
+      <div class="font-bold text-xl mb-2">Stylish Jacket</div>
+      <p class="text-gray-700 text-base">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      </p>
+    </div>
+    <div class="flex pt-4 pb-4 ml-4   xsm:relative xsm:left-14 lg:ml-10">
+      <button class="bg-sky-300 hover:bg-sky-200 hover:text-indigo-700 py-2 px-2 mt-4   xflex rounded-lg xsm:flex xsm:justify-center font-bold ">Add To Card <span class="material-icons text-blue-700 px-1">
+        shopping_cart  
+      </span></button>
+    
+  </div>
+    </div>
+</div>
+<div class=" rounded-md w-full lg:hidden xl:hidden 2xl:hidden md:block  sm:hidden xsm:hidden ">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
+    <img class="w-full" src="  products/women 3.jpg" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Stylish Jacket</div>
       <p class="text-gray-700 text-base">
@@ -264,11 +315,11 @@
 
 
 
-<div class="container flex flex-col lg:flex-row md:flex-col  xsm:flex-col xsm:justify-center xsm:w-full xsm:ml-10">
+<div class="grid gap-4 sm:grid-cols-1 xsm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center">
   <!-- card 4 -->
-<div class=" rounded-md ">
+<div class=" rounded-md w-full">
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women 4.webp" alt="Mountain">
+    <img class="w-full" src="  products/women 4.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Romy Pleated Jeans</div>
       <p class="text-gray-700 text-base">
@@ -285,9 +336,9 @@
 </div>
 
 <!-- card 5 -->
-<div class=" rounded-md ">
+<div class=" rounded-md w-full ">
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women 5.webp" alt="Mountain">
+    <img class="w-full" src="  products/women 5.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Suit Jacket</div>
       <p class="text-gray-700 text-base">
@@ -303,9 +354,9 @@
     </div>
 </div>
 <!-- card 6 -->
-<div class=" rounded-md ">
+<div class=" rounded-md w-full  ">
   <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
-    <img class="w-full" src="products/women 6.webp" alt="Mountain">
+    <img class="w-full" src="  products/women 6.webp" alt="Mountain">
     <div class="px-6 py-2">
       <div class="font-bold text-xl mb-2">Denim Jacket</div>
       <p class="text-gray-700 text-base">
@@ -321,7 +372,6 @@
     </div>
 </div>
 </div>
-
 <div class="container mx-auto  flex  flex-col justify-center  lg:flex-row md-flex-col xsm:-mt-20">
   <div class="text-center mt-20  py-20 relative top-10 ">
     <h2 class="text-indigo-700 text-xl font-semibold">Subscribe To Get Our Offers First</h2>
@@ -336,7 +386,7 @@
       </div>
   </div>
   <div class="relative -top-20">
-    <img src="img/email.svg" alt="email Subscribe" class="w-66">
+    <img src="  img/email.svg" alt="email Subscribe" class="w-66">
   </div>
 </div>
 <footer class="mt-10 mb-6">
@@ -354,6 +404,21 @@
   </div>
 </footer>
 
-<script src="./main.js"></script>
+<script>
+  let menu_mobile = document.getElementById('mobile-menu');
+  let menu_btn = document.getElementById('menu-mobile-btn');
+  let btn_close = document.getElementById('close-btn');
+
+  menu_btn. addEventListener("click", function(){
+    menu_mobile.style.display = "block";
+    menu_btn.style.display = "none";
+  })
+
+  btn_close.addEventListener('click',function(){
+    menu_btn.style.display = "block";
+    menu_mobile.style.display = "none";
+  })
+</script>
+<!-- <script src="main.js"></script> -->
 </body>
 </html>
